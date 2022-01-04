@@ -91,10 +91,14 @@ async def start_command(client: Client, message: Message):
             [
                 [
                 InlineKeyboardButton("🔊channel🔊", url = "https://t.me/Filmspoterchannel"),
-                InlineKeyboardButton("💬group💬", url = "https://t.me/Filmspoters"),
-                InlineKeyboardButton("🧑‍💻Developer 🧑‍💻", url = "https://t.me/filmspoteradmin"),
-                InlineKeyboardButton("😎About Me😎", callback_data = "about"),
-                InlineKeyboardButton("❌ Close❌", callback_data = "close")
+
+InlineKeyboardButton("💬group💬", url = "https://t.me/Filmspoters"),
+
+InlineKeyboardButton("🧑‍💻Developer 🧑‍💻", url = "https://t.me/filmspoteradmin"),
+
+InlineKeyboardButton("😎About Me😎", callback_data = "about"),
+
+InlineKeyboardButton("❌ Close❌", callback_data = "close")
                 ]
             ]
         )
